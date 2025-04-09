@@ -1,0 +1,191 @@
+/* sytles.css */
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 16px;
+    height: 100vh;
+}
+
+.flex-rule {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.padd-container {
+    padding: 15px 10%;
+}
+
+.header {
+    font-size: 18px;
+    background: #1f2937;
+    color:#e5e7eb;
+}
+
+.navbar.logo {
+    font-size: 24px;
+    color: #f9faf8;
+}
+
+.header-info {
+    margin: 50px auto;
+    gap: 40px;
+    font-size: 18px;
+    color: #e5e5e5;
+}
+
+.header-info-details {
+    max-width: 40%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.header-info-details > h1 {
+    font-size: 48px;
+    color: #f9faf8;
+    font-weight: 900;
+    line-height: 1;
+}
+
+button {
+    background: #3882f6;
+    color: #f9faf8;
+    border-radius: 5px;
+    padding: 5px 20px;
+    border: none;
+    max-width: 100px;
+}
+
+.header-info-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #454a52;
+    align-self: stretch;
+    width: 100%;
+}
+
+section {
+    background: white;
+}
+
+.gallery-pictures {
+    font-size: 14px;
+    text-align: center;
+    justify-content: center !important;
+    gap: 20px;
+    padding: 10px 20% 30px;
+}
+
+.gallery-pictures-item {
+    max-width: 150px;
+}
+
+.gallery-picture-item > p {
+    max-width: 120px;
+    margin: auto;
+    text-align: center;
+}
+
+.box {
+    border-radius: 5px;
+    width: 130px;
+    height: 130px;
+    border: 2px solid #3882f6;
+    color: #f9faf8;
+    margin: 10px auto;
+}
+
+
+.navbar ul {
+    display: flex;
+    gap: 10px;
+    list-style: none;
+}
+
+.left h1 {
+    font-size: 3rem;
+    font-weight: bold;
+    line-height: 1.2;
+}
+
+.header p {
+    font-size: small;
+}
+
+.header .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+
+section h1 {
+    text-align: center;
+    font-size: 36px;
+    color: #1f2937;
+    font-weight: 900;
+}
+
+.Thunder padd-container {
+    display: flex;
+    justify-content: center;
+}
+
+.Thunder {
+    background: #e5e7eb;
+    padding: 100px;
+}
+.quote {
+    font-size: 36px;
+    font-family: light italic;
+    text-align: center; 
+    color: #1f2937;
+}
+
+.Thunder p {
+    text-align: right;
+    width: 100%;
+    font-size: 15px;
+}
+
+.action-container {
+    padding: 50px 10%;
+}
+
+.blue {
+    display: flex;
+    justify-content: space-around;
+    padding: 40px;
+    background: #3882f6;
+    color: #e5e7eb;
+    border-radius: 5px;
+}
+.blue h1 {
+    font-size: large;
+}
+
+.blue p {
+    font-size: 12px;
+}
+.two {
+    border-radius: 5px;
+    border: 2px solid #f9faf8;
+    max-height: 30px;
+    align-self: center;
+}
+
+footer {
+    background: #1f2937;
+    text-align: center;
+    margin: auto;
+    color: #e5e5e5;
+    font-size: 12px;
+}
